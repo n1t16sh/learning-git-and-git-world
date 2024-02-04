@@ -1,0 +1,425 @@
+this is my first html project , i made while learning html.
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <link rel="stylesheet" href="youtube.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="height: 2000px;">
+                <!--                                   header/serch bar                                    -->
+  <div class="header">
+   <div class="in-header-left">
+        <div>
+   <h1 style="display: inline-block;">&#9776;</h1> <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg" class="logo"  style="height: 30px;" width="130px"></div>
+  </div>
+   <div class="in-header-mid">
+  <input class="serch-bar" type="text" placeholder="serch" style="height: 30px;"><button id="serch" style="height: 35px; width: 50px;"> <img src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg" height="19px"></button>
+  <button id="voice" style="height: 35px; width: 35px; border-radius: 17px;"> <img src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg" height="19px"></div>
+  <div class="in-header-right">
+  <div class="head-right">
+    <div><img src="	https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg" style="border-radius: 0%; height: 28px;"></div>
+    <div><img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg" style="border-radius: 0%; height: 28px;"></div>
+    <div><img src="	https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg" style="border-radius: 0%; height: 28px;"></div>
+    <div><img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/my-channel.jpeg" style="border-radius: 0%; height: 28px;"></div>
+  </div>
+</div>
+</div>
+<hr>
+      <!--                                         tabs , associated with u tube                                      -->
+
+<div class="mkc">
+  <div class="grid-seperation">
+    <div class="tab-sect">
+      <p class="tab-marg">
+      <button class="tab-but" style="padding-top: 8px; padding-bottom: 10px;">
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg" width="28px" height="28px" >home</button>
+      </p>
+    
+      <p class="tab-marg">
+     <button class="tab-but" style="padding-top: 10px; padding-bottom: 10px;">
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg" width="28px" height="28px">explore</button>
+      </p>
+      <p class="tab-marg">
+      <button class="tab-but" style="padding-top: 10px; padding-bottom: 10px;">
+        <img src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg" width="28px" height="28px"><p style="font-size: 10px; margin-top: 0%; margin-bottom: 0%;">subscription</p>
+      </button>
+        <p class="tab-marg">
+        <button class="tab-but" style="padding-top: 8px; padding-bottom: 10px;">
+        <img src="	https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg" width="28px" height="28px" >origin</button>
+        </p>
+      
+        <p class="tab-marg">
+       <button class="tab-but" style="padding-top: 10px; padding-bottom: 10px;">
+        <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg" width="28px" height="28px">youtube music</button>
+        </p>
+  
+        <p class="tab-marg">
+        <button class="tab-but" style="padding-top: 10px; padding-bottom: 10px;">
+          <img src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg" width="28px" height="28px"><p style="font-size: 10px; margin-top: 0%; margin-bottom: 0%;">library</p>
+        </button>
+    </div>
+   <!--                              scroling area , where all video links are gona be placed                                 --> 
+    
+   <div class="scoll">
+
+    <div class="no-of-vids">
+
+
+      <!--1st video-->
+     <div class="video-area-1">
+        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp" width="100%" height="208px">
+        <div class="discrip">
+    <!--grid-->  <div class="grid-disc">   
+          <div class="ch-photo">
+          <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+      <p style=" text-align: right ; margin-left: 4px;" ><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link"> black guy with a brown guy </a> </p></div>
+    </div> 
+    </div>
+    </div>
+   <!--1st video end-->
+
+    <!--2nd video strt-->
+          <div class="video-area-2">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" width="100%" height="208px">
+         <div class="discrip">
+    <!--grid-->  <div class="grid-disc">      
+                <div class="ch-photo">
+                  <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+      <div class="para-disc">         
+      <p style=" text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">a chinese guy </a> </p></div>
+    </div> 
+    </div>
+    </div>
+        <!--2nd video end-->
+
+    <!--3rd video strt-->
+          <div class="video-area-3">
+            <img src="	https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp" width="100%" height="208px">
+            <div class="discrip">
+    <!--grid-->  <div class="grid-disc">           
+                <div class="ch-photo">
+                  <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+          <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">sniper wolf </a> </p></div>
+        </div>
+         </div>
+         </div>
+         <!--3rd video end-->
+
+         <!--4th video strt-->
+         <div class="video-area-3">
+          <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp" width="100%" height="208px">
+          <div class="discrip">
+  <!--grid-->  <div class="grid-disc">           
+              <div class="ch-photo">
+                <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+        <div class="para-disc">
+        <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">aesthatic maths</a> </p></div>
+      </div>
+       </div>
+       </div>
+       <!--4th video end-->
+      </P></div>
+      <p>
+       <div class="no-of-vids">
+         <!--1st video 2nd line-->
+     
+      <div class="video-area-1">
+        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp" width="100%" height="208px">
+        <div class="discrip">
+    <!--grid-->  <div class="grid-disc">   
+          <div class="ch-photo">
+          <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-5.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+      <p style=" text-align: right ; margin-left: 4px;" ><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link"> marhs with ninja </a> </div>
+    </div> 
+    </div>
+    </div>
+  
+    <!--1st video 2nd line end-->
+
+    <!--2nd video 2nd line strt-->
+          <div class="video-area-2">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp" width="100%" height="208px">
+         <div class="discrip">
+    <!--grid-->  <div class="grid-disc">      
+                <div class="ch-photo">
+                  <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-6.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+      <div class="para-disc">         
+      <p style=" text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link"> rich racisst guy </a> </p></div>
+    </div> 
+    </div>
+    </div>
+        <!--2nd video 2nd line end-->
+
+    <!--3rd video 2nd line strt-->
+          <div class="video-area-3">
+            <img src="	https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-7.webp" width="100%" height="208px">
+            <div class="discrip">
+    <!--grid-->  <div class="grid-disc">           
+                <div class="ch-photo">
+                  <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-7.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+          <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">9/11 hogya lala </a> </p></div>
+        </div>
+         </div>
+         </div>
+         <!--3rd video 2nd line end-->
+
+          <!--4th video strt-->
+          <div class="video-area-3">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-8.webp" width="100%" height="208px">
+            <div class="discrip">
+    <!--grid-->  <div class="grid-disc">           
+                <div class="ch-photo">
+                  <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-8.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+          <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">sexy - sexy jahaj</a> </p></div>
+        </div>
+         </div>
+         </div>
+         <!--4th video end--></p></div>
+
+     
+    <div class="no-of-vids">
+
+
+      <!--1st video-->
+     <div class="video-area-1">
+        <img src="	https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-9.webp" width="100%" height="208px">
+        <div class="discrip">
+    <!--grid-->  <div class="grid-disc">   
+          <div class="ch-photo">
+          <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-9.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+      <p style=" text-align: right ; margin-left: 4px;" ><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link"> chinese trying hard </a> </p></div>
+    </div> 
+    </div>
+    </div>
+  
+    <!--1st video end-->
+
+    <!--2nd video strt-->
+          <div class="video-area-2">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-10.webp" width="100%" height="208px">
+            <div class="discrip">
+              <!--grid-->  
+    <div class="grid-disc">      
+                <div class="ch-photo">
+                  <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-10.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+      <div class="para-disc">         
+      <p style=" text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">lets feed hungry obese american  </a> </p></div>
+    </div> 
+    </div>
+    </div>
+        <!--2nd video end-->
+
+    <!--3rd video strt-->
+          <div class="video-area-3">
+            <img src="	https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-11.webp" width="100%" height="208px">
+            <div class="discrip">
+    <!--grid-->  <div class="grid-disc">           
+                <div class="ch-photo">
+                  <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-11.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+          <div class="para-disc">
+          <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">too uch water gudu gudu </a> </p></div>
+        </div>
+         </div>
+         </div>
+         <!--3rd video end-->
+
+         <!--4th video strt-->
+         <div class="video-area-3">
+          <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-12.webp" width="100%" height="208px">
+          <div class="discrip">
+  <!--grid-->  <div class="grid-disc">           
+              <div class="ch-photo">
+                <img src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-12.jpeg" width="36px" height="36px" style="border-radius: 100px;"></div>
+        <div class="para-disc">
+        <p style="text-align: right; margin-left: 4px;"><a href="https://youtu.be/n2RNcPRtAiY?si=A_Wx6wopIiyQwe7o" class="utube-link">3am shit</a> </p></div>
+      </div>
+       </div>
+       </div>
+       <!--4th video end-->
+      </P></div>
+     <!--/P--></div>
+      </div>
+    
+
+</body>
+</html>
+
+
+
+
+css
+
+
+<style>
+.line{
+    margin: 200px;
+    height: 5px;
+    width: 4px;
+    width: 1/3;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 49px;
+    background-color: white;
+    padding-top: 4px;
+    border-bottom: 1px solid #dedede;
+}
+h1{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.in-header-left{
+    width: 180px;
+  
+    display: flex;
+    flex-direction: row;
+}
+.in-header-mid{
+    display: flex;
+    flex: 1 30px;
+    max-width: 800px;
+    align-items: center;
+    margin-left: 80px;
+}
+.serch-bar{
+    display: flex;
+    flex: 1;
+    max-width: 460px;
+    box-shadow: inset 1px 2px 5px 
+    rgba(0, 0, 0, 0.25);
+    border-color: rgb(192, 192, 192);
+}
+.serch-bar::placeholder{
+    font-size: 21px;
+    margin-left: 10px;
+    align-items: center;
+    padding-left: 15px;
+}
+.in-header-right{
+    border: none;
+    width: 200px;
+
+}
+.head-right{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#voice{
+    border: none;
+    margin-left: 3px;
+}
+
+.mkc{
+    display: block;
+}
+.grid-seperation{
+    margin-top: 50px;
+}
+
+
+
+.scoll{
+   display: inline-block;
+    vertical-align: top;
+    background-color: rgb(240, 240, 240);
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.tab-sect{
+border-color: rgb(202, 25, 25);
+display: flex;
+flex-direction: column;
+position: fixed;
+top: 53px;
+left: 0px;
+width: 65px;
+bottom: 0px;
+margin-right: 0px;
+}
+.tab-marg{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.tab-but{
+    background-color: white;
+    width: 100%;  
+    text-align: center; 
+    display: block; 
+    border: none;
+}
+.tab-but:hover{
+    background-color: rgb(240, 240, 240);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50px 260px;
+}
+
+.no-of-vids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 19px;
+    margin-left: 4px;
+}
+
+.video-area-1{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 7px;"
+}
+
+.video-area-2{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 15px;"
+}
+.video-area-3{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 15px;"
+}
+.discrip{
+    display: block;
+    margin-top: 4px;
+}
+.ch-photo{
+    display: inline-block;
+}
+.para-disc{
+    display: inline-block;
+}
+
+.grid-disc{
+    display: grid;
+    grid-template-columns: 51px 1fr;
+}
+p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+</style>
